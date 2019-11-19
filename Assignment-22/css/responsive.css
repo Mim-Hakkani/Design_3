@@ -1,0 +1,57 @@
+@media (max-width: 768px)
+{
+	.services-text{
+		width: 100%;
+	}
+	.icons{
+		display: block;
+	}
+	.menu{
+		display: none;
+	}
+	.menu ul li {
+		display: block;
+		margin-bottom: 10px;
+	}
+	
+.section-position{
+	position: relative;
+	width: 100%;
+	font-size: 13px;
+}
+.Services {margin-top: 40px;}
+
+}
+@media (max-width: 572px)
+{
+	.services-text{
+		width: 100%;
+	}
+	.icons{
+		display: block;
+
+	}
+	.icons span {
+    margin-top: 10px;
+}
+	.menu{
+		display: none;
+	}
+	.menu ul li {
+		display: block;
+		margin-bottom: 10px;
+	}
+	
+.section-position{
+	position: relative;
+	width: 100%;
+	
+}
+.section-2 p{
+font-size: 25px;
+}
+.section-position p{
+	text-align: justify;
+}
+
+}

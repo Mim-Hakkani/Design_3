@@ -1,0 +1,167 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Cuda
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Hasan Mahmud
+	Author URI: http://www.HN-Mahmud.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+/************** 1. Typography ************************/
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap');
+body, p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	line-height: 1.3em;
+}
+
+/**************** 2. Header Area ********/
+.top-section{
+	background-image: url('images/background/background3.jpg');
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	background-position: center;
+
+}
+.icons{
+font-size: 25px;
+color: white;
+display: none;
+
+}
+
+.icons span {
+    margin-top: 30px;
+}
+
+.section-1{
+	overflow: hidden;
+}
+.japsa{
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.3);
+}
+.logo img{margin-top: 32px;}
+.menu ul{
+	text-align: right;
+	margin-top: 39px;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	font-size: 25px;
+	padding: 5px 22px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+    border: none;
+    transition:1s;
+    color: aliceblue;
+    letter-spacing: 2px;
+     }
+
+
+.menu ul li a:hover{
+	background-color: #F8874A;
+	border: none;
+	border-radius: 6px;
+	color: #FFF;
+	padding: 9px 22px;
+}
+.section-position {
+    position: absolute;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    top: 23%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 300px;
+}
+.section-2{}
+.section-2 p {
+    font-size: 35px;
+    margin-bottom: 27px;
+}
+/*services SEction */
+.Services{
+	background-color: #02A598;
+	}
+.services-text {
+    width: 700px;
+    margin: 0 auto;
+}
+.services-text h2 {
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 39px;
+}
+.services-text hr {
+    width: 91px;
+    /* color: orange; */
+    /* padding: 8px; */
+    border: 1px solid orange;
+}
+.services-text p {
+    font-size: 24px;
+    line-height: 34px;
+    padding-bottom: 98px;
+    color: white;
+}
+.real-services h3 {
+    letter-spacing: 3px;
+    font-size: 32px;
+    margin: 15px 0px;
+}
+.real-services p {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: #fff;
+}
+/* Meeting team section  */
+.card img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding: 15px 0px;
+}
+.card h4 {
+    padding: 15px 0px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+.card p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    padding: 0px 14px;
+}
